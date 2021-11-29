@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="textField" layoutX="21.0" layoutY="31.0" prefHeight="64.0" prefWidth="323.0" />
+      <Button fx:id="btnOne" layoutX="21.0" layoutY="147.0" mnemonicParsing="false" onAction="#oneBtn" prefHeight="58.0" prefWidth="62.0" style="-fx-background-radius: 50;" text="1" />
+      <Button fx:id="btnTwo" layoutX="98.0" layoutY="147.0" mnemonicParsing="false" onAction="#twoBtn" prefHeight="58.0" prefWidth="62.0" style="-fx-background-radius: 50;" text="2" />
+      <Button fx:id="btnThree" layoutX="172.0" layoutY="147.0" mnemonicParsing="false" onAction="#threeBtn" prefHeight="58.0" prefWidth="62.0" style="-fx-background-radius: 50;" text="3" />
+      <Button fx:id="btnFour" layoutX="21.0" layoutY="224.0" mnemonicParsing="false" onAction="#fourBtn" prefHeight="50.0" prefWidth="54.0" style="-fx-background-radius: 50;" text="4" />
+      <Button fx:id="btnFive" layoutX="106.0" layoutY="224.0" mnemonicParsing="false" onAction="#fiveBtn" prefHeight="50.0" prefWidth="54.0" style="-fx-background-radius: 50;" text="5" />
+      <Button fx:id="BtnSix" layoutX="183.0" layoutY="224.0" mnemonicParsing="false" onAction="#sixBtn" prefHeight="50.0" prefWidth="54.0" style="-fx-background-radius: 50;" text="6" />
+      <Button fx:id="btnSeven" layoutX="21.0" layoutY="292.0" mnemonicParsing="false" onAction="#sevenBtn" prefHeight="50.0" prefWidth="54.0" style="-fx-background-radius: 50;" text="7" />
+      <Button fx:id="btnEight" layoutX="106.0" layoutY="292.0" mnemonicParsing="false" onAction="#eightBtn" prefHeight="50.0" prefWidth="54.0" style="-fx-background-radius: 50;" text="8" />
+      <Button fx:id="btnNine" layoutX="184.0" layoutY="293.0" mnemonicParsing="false" onAction="#nineBtn" prefHeight="50.0" prefWidth="54.0" style="-fx-background-radius: 50;" text="9" />
+      <Button fx:id="btnZero" layoutX="21.0" layoutY="354.0" mnemonicParsing="false" onAction="#ZeroBtn" prefHeight="50.0" prefWidth="124.0" style="-fx-background-radius: 50;" text="0" />
+      <Button fx:id="btnEqual" layoutX="184.0" layoutY="354.0" mnemonicParsing="false" onAction="#equalbtn" prefHeight="50.0" prefWidth="54.0" style="-fx-background-radius: 50;" text="=" />
+      <Button fx:id="btnplus" layoutX="246.0" layoutY="147.0" mnemonicParsing="false" onAction="#plusBtn" prefHeight="58.0" prefWidth="62.0" style="-fx-background-radius: 50;" text="+" />
+      <Button fx:id="btnMinus" layoutX="257.0" layoutY="224.0" mnemonicParsing="false" onAction="#minusBtn" prefHeight="50.0" prefWidth="54.0" style="-fx-background-radius: 50;" text="-" />
+      <Button fx:id="btnMul" layoutX="258.0" layoutY="293.0" mnemonicParsing="false" onAction="#mulbtn" prefHeight="50.0" prefWidth="54.0" style="-fx-background-radius: 50;" text="x" />
+      <Button fx:id="btnDivide" layoutX="258.0" layoutY="354.0" mnemonicParsing="false" onAction="#divBtn" prefHeight="50.0" prefWidth="54.0" style="-fx-background-radius: 50;" text="/" />
+      <Button fx:id="btnClear" layoutX="21.0" layoutY="414.0" mnemonicParsing="false" onAction="#clearBtn" prefHeight="50.0" prefWidth="221.0" style="-fx-background-radius: 50;" text="Clear Screen" />
+   </children>
+</AnchorPane>
